@@ -3,7 +3,7 @@ const news = [
     id: 1,
     slug: "nepal-wins-cricket-series",
     title: "Nepal Wins Historic Cricket Series",
-    image: "/images/news/news1.jpg",
+    image: "/images/news/news1.png",
     category: "Sports",
     author: "Bigya Thapa",
     date: "29 July 2026",
@@ -16,7 +16,7 @@ const news = [
     id: 2,
     slug: "new-tech-park-opens-kathmandu",
     title: "New Technology Park Opens in Kathmandu",
-    image: "/images/news/news2.jpg",
+    image: "/images/news/news2.png",
     category: "Technology",
     author: "Aarav Sharma",
     date: "28 July 2026",
@@ -29,7 +29,7 @@ const news = [
     id: 3,
     slug: "government-announces-budget-plan",
     title: "Government Announces New Budget Plan",
-    image: "/images/news/news3.jpg",
+    image: "/images/news/news3.jpeg",
     category: "Politics",
     author: "Sita Rai",
     date: "28 July 2026",
@@ -42,7 +42,7 @@ const news = [
     id: 4,
     slug: "everest-tourism-sees-growth",
     title: "Everest Tourism Sees Record Growth",
-    image: "/images/news/news4.jpg",
+    image: "/images/news/news4.webp",
     category: "Tourism",
     author: "Ram Gurung",
     date: "27 July 2026",
@@ -55,7 +55,7 @@ const news = [
     id: 5,
     slug: "nepal-launches-green-energy-project",
     title: "Nepal Launches Major Green Energy Project",
-    image: "/images/news/news5.jpg",
+    image: "/images/news/news5.webp",
     category: "Business",
     author: "Prakash Adhikari",
     date: "27 July 2026",
@@ -68,7 +68,7 @@ const news = [
     id: 6,
     slug: "national-football-league-begins",
     title: "National Football League Begins This Week",
-    image: "/images/news/news6.jpg",
+    image: "/images/news/news6.svg",
     category: "Sports",
     author: "Rohan Karki",
     date: "26 July 2026",
@@ -81,7 +81,7 @@ const news = [
     id: 7,
     slug: "students-win-robotics-competition",
     title: "Nepali Students Win International Robotics Competition",
-    image: "/images/news/news7.jpg",
+    image: "/images/news/news7.png",
     category: "Education",
     author: "Nisha Shrestha",
     date: "26 July 2026",
@@ -90,174 +90,174 @@ const news = [
     content:
       "The competition highlighted creativity, teamwork, and engineering skills among young participants.",
   },
-  {
-    id: 8,
-    slug: "health-campaign-expands-rural-areas",
-    title: "Health Campaign Expands to Rural Areas",
-    image: "/images/news/news8.jpg",
-    category: "Health",
-    author: "Milan KC",
-    date: "25 July 2026",
-    description:
-      "Healthcare teams are providing free medical checkups in remote communities.",
-    content:
-      "Doctors and volunteers aim to improve healthcare access through nationwide outreach programs.",
-  },
-  {
-    id: 9,
-    slug: "new-airport-terminal-opens",
-    title: "New Airport Terminal Officially Opens",
-    image: "/images/news/news9.jpg",
-    category: "Nepal",
-    author: "Kiran Thapa",
-    date: "25 July 2026",
-    description:
-      "The new terminal is expected to improve passenger services and capacity.",
-    content:
-      "Officials believe the expansion will strengthen tourism and international connectivity.",
-  },
-  {
-    id: 10,
-    slug: "local-art-festival-attracts-visitors",
-    title: "Local Art Festival Attracts Thousands of Visitors",
-    image: "/images/news/news10.jpg",
-    category: "Culture",
-    author: "Suman Lama",
-    date: "24 July 2026",
-    description:
-      "Artists showcased paintings, sculptures, and traditional crafts.",
-    content:
-      "Visitors enjoyed cultural performances and exhibitions celebrating Nepal's artistic heritage.",
-  },
-  {
-    id: 11,
-    slug: "ai-startups-growing-nepal",
-    title: "AI Startups Continue to Grow in Nepal",
-    image: "/images/news/news11.jpg",
-    category: "Technology",
-    author: "Anisha Koirala",
-    date: "24 July 2026",
-    description:
-      "Artificial intelligence startups are attracting investors and skilled professionals.",
-    content:
-      "Experts believe AI will play a major role in Nepal's digital transformation.",
-  },
-  {
-    id: 12,
-    slug: "basketball-championship-finals",
-    title: "National Basketball Championship Reaches Finals",
-    image: "/images/news/news12.jpg",
-    category: "Sports",
-    author: "Bibek Chaudhary",
-    date: "23 July 2026",
-    description:
-      "The top two teams are preparing for an exciting championship match.",
-    content:
-      "Fans are expecting a competitive final after an impressive tournament.",
-  },
-  {
-    id: 13,
-    slug: "new-library-opens-city-center",
-    title: "Modern Public Library Opens in City Center",
-    image: "/images/news/news13.jpg",
-    category: "Education",
-    author: "Sarita Bhandari",
-    date: "23 July 2026",
-    description:
-      "The library offers digital resources, study areas, and community events.",
-    content:
-      "Students and researchers welcomed the new facility for learning and collaboration.",
-  },
-  {
-    id: 14,
-    slug: "mountain-cleanup-campaign-success",
-    title: "Mountain Cleanup Campaign Collects Tons of Waste",
-    image: "/images/news/news14.jpg",
-    category: "Environment",
-    author: "Deepak Magar",
-    date: "22 July 2026",
-    description: "Volunteers removed waste from popular trekking routes.",
-    content:
-      "Environmental groups emphasized the importance of sustainable tourism and conservation.",
-  },
-  {
-    id: 15,
-    slug: "film-festival-premieres-new-movies",
-    title: "Film Festival Premieres Award-Winning Movies",
-    image: "/images/news/news15.jpg",
-    category: "Entertainment",
-    author: "Rita Tamang",
-    date: "22 July 2026",
-    description:
-      "Filmmakers presented documentaries and feature films to enthusiastic audiences.",
-    content:
-      "The festival celebrated creativity and encouraged young filmmakers to share their work.",
-  },
-  {
-    id: 16,
-    slug: "agriculture-program-supports-farmers",
-    title: "New Agriculture Program Supports Local Farmers",
-    image: "/images/news/news16.jpg",
-    category: "Business",
-    author: "Hari Pokharel",
-    date: "21 July 2026",
-    description:
-      "Farmers will receive training, equipment, and financial assistance.",
-    content:
-      "The initiative aims to increase productivity and improve rural livelihoods.",
-  },
-  {
-    id: 17,
-    slug: "science-fair-highlights-innovation",
-    title: "Science Fair Highlights Student Innovation",
-    image: "/images/news/news17.jpg",
-    category: "Science",
-    author: "Sneha Gautam",
-    date: "21 July 2026",
-    description:
-      "Students displayed creative scientific projects and experiments.",
-    content:
-      "Teachers praised participants for their curiosity and practical problem-solving skills.",
-  },
-  {
-    id: 18,
-    slug: "city-marathon-draws-athletes",
-    title: "City Marathon Draws Record Number of Athletes",
-    image: "/images/news/news18.jpg",
-    category: "Sports",
-    author: "Roshan Bhatt",
-    date: "20 July 2026",
-    description:
-      "Thousands of runners participated in the annual city marathon.",
-    content:
-      "The event promoted fitness, tourism, and community participation.",
-  },
-  {
-    id: 19,
-    slug: "fashion-show-promotes-local-designers",
-    title: "Fashion Show Promotes Emerging Local Designers",
-    image: "/images/news/news19.jpg",
-    category: "Lifestyle",
-    author: "Puja Khatri",
-    date: "20 July 2026",
-    description:
-      "Designers presented modern collections inspired by Nepali culture.",
-    content:
-      "The event encouraged young designers to showcase their talent on a national platform.",
-  },
-  {
-    id: 20,
-    slug: "community-volunteers-plant-trees",
-    title: "Community Volunteers Plant Thousands of Trees",
-    image: "/images/news/news20.jpg",
-    category: "Environment",
-    author: "Aakash Joshi",
-    date: "19 July 2026",
-    description:
-      "A nationwide campaign encouraged citizens to plant trees for a greener future.",
-    content:
-      "Volunteers from schools, organizations, and local communities participated in the environmental initiative.",
-  },
+  // {
+  //   id: 8,
+  //   slug: "health-campaign-expands-rural-areas",
+  //   title: "Health Campaign Expands to Rural Areas",
+  //   image: "/images/news/news8.jpg",
+  //   category: "Health",
+  //   author: "Milan KC",
+  //   date: "25 July 2026",
+  //   description:
+  //     "Healthcare teams are providing free medical checkups in remote communities.",
+  //   content:
+  //     "Doctors and volunteers aim to improve healthcare access through nationwide outreach programs.",
+  // },
+  // {
+  //   id: 9,
+  //   slug: "new-airport-terminal-opens",
+  //   title: "New Airport Terminal Officially Opens",
+  //   image: "/images/news/news9.jpg",
+  //   category: "Nepal",
+  //   author: "Kiran Thapa",
+  //   date: "25 July 2026",
+  //   description:
+  //     "The new terminal is expected to improve passenger services and capacity.",
+  //   content:
+  //     "Officials believe the expansion will strengthen tourism and international connectivity.",
+  // },
+  // {
+  //   id: 10,
+  //   slug: "local-art-festival-attracts-visitors",
+  //   title: "Local Art Festival Attracts Thousands of Visitors",
+  //   image: "/images/news/news10.jpg",
+  //   category: "Culture",
+  //   author: "Suman Lama",
+  //   date: "24 July 2026",
+  //   description:
+  //     "Artists showcased paintings, sculptures, and traditional crafts.",
+  //   content:
+  //     "Visitors enjoyed cultural performances and exhibitions celebrating Nepal's artistic heritage.",
+  // },
+  // {
+  //   id: 11,
+  //   slug: "ai-startups-growing-nepal",
+  //   title: "AI Startups Continue to Grow in Nepal",
+  //   image: "/images/news/news11.jpg",
+  //   category: "Technology",
+  //   author: "Anisha Koirala",
+  //   date: "24 July 2026",
+  //   description:
+  //     "Artificial intelligence startups are attracting investors and skilled professionals.",
+  //   content:
+  //     "Experts believe AI will play a major role in Nepal's digital transformation.",
+  // },
+  // {
+  //   id: 12,
+  //   slug: "basketball-championship-finals",
+  //   title: "National Basketball Championship Reaches Finals",
+  //   image: "/images/news/news12.jpg",
+  //   category: "Sports",
+  //   author: "Bibek Chaudhary",
+  //   date: "23 July 2026",
+  //   description:
+  //     "The top two teams are preparing for an exciting championship match.",
+  //   content:
+  //     "Fans are expecting a competitive final after an impressive tournament.",
+  // },
+  // {
+  //   id: 13,
+  //   slug: "new-library-opens-city-center",
+  //   title: "Modern Public Library Opens in City Center",
+  //   image: "/images/news/news13.jpg",
+  //   category: "Education",
+  //   author: "Sarita Bhandari",
+  //   date: "23 July 2026",
+  //   description:
+  //     "The library offers digital resources, study areas, and community events.",
+  //   content:
+  //     "Students and researchers welcomed the new facility for learning and collaboration.",
+  // },
+  // {
+  //   id: 14,
+  //   slug: "mountain-cleanup-campaign-success",
+  //   title: "Mountain Cleanup Campaign Collects Tons of Waste",
+  //   image: "/images/news/news14.jpg",
+  //   category: "Environment",
+  //   author: "Deepak Magar",
+  //   date: "22 July 2026",
+  //   description: "Volunteers removed waste from popular trekking routes.",
+  //   content:
+  //     "Environmental groups emphasized the importance of sustainable tourism and conservation.",
+  // },
+  // {
+  //   id: 15,
+  //   slug: "film-festival-premieres-new-movies",
+  //   title: "Film Festival Premieres Award-Winning Movies",
+  //   image: "/images/news/news15.jpg",
+  //   category: "Entertainment",
+  //   author: "Rita Tamang",
+  //   date: "22 July 2026",
+  //   description:
+  //     "Filmmakers presented documentaries and feature films to enthusiastic audiences.",
+  //   content:
+  //     "The festival celebrated creativity and encouraged young filmmakers to share their work.",
+  // },
+  // {
+  //   id: 16,
+  //   slug: "agriculture-program-supports-farmers",
+  //   title: "New Agriculture Program Supports Local Farmers",
+  //   image: "/images/news/news16.jpg",
+  //   category: "Business",
+  //   author: "Hari Pokharel",
+  //   date: "21 July 2026",
+  //   description:
+  //     "Farmers will receive training, equipment, and financial assistance.",
+  //   content:
+  //     "The initiative aims to increase productivity and improve rural livelihoods.",
+  // },
+  // {
+  //   id: 17,
+  //   slug: "science-fair-highlights-innovation",
+  //   title: "Science Fair Highlights Student Innovation",
+  //   image: "/images/news/news17.jpg",
+  //   category: "Science",
+  //   author: "Sneha Gautam",
+  //   date: "21 July 2026",
+  //   description:
+  //     "Students displayed creative scientific projects and experiments.",
+  //   content:
+  //     "Teachers praised participants for their curiosity and practical problem-solving skills.",
+  // },
+  // {
+  //   id: 18,
+  //   slug: "city-marathon-draws-athletes",
+  //   title: "City Marathon Draws Record Number of Athletes",
+  //   image: "/images/news/news18.jpg",
+  //   category: "Sports",
+  //   author: "Roshan Bhatt",
+  //   date: "20 July 2026",
+  //   description:
+  //     "Thousands of runners participated in the annual city marathon.",
+  //   content:
+  //     "The event promoted fitness, tourism, and community participation.",
+  // },
+  // {
+  //   id: 19,
+  //   slug: "fashion-show-promotes-local-designers",
+  //   title: "Fashion Show Promotes Emerging Local Designers",
+  //   image: "/images/news/news19.jpg",
+  //   category: "Lifestyle",
+  //   author: "Puja Khatri",
+  //   date: "20 July 2026",
+  //   description:
+  //     "Designers presented modern collections inspired by Nepali culture.",
+  //   content:
+  //     "The event encouraged young designers to showcase their talent on a national platform.",
+  // },
+  // {
+  //   id: 20,
+  //   slug: "community-volunteers-plant-trees",
+  //   title: "Community Volunteers Plant Thousands of Trees",
+  //   image: "/images/news/news20.jpg",
+  //   category: "Environment",
+  //   author: "Aakash Joshi",
+  //   date: "19 July 2026",
+  //   description:
+  //     "A nationwide campaign encouraged citizens to plant trees for a greener future.",
+  //   content:
+  //     "Volunteers from schools, organizations, and local communities participated in the environmental initiative.",
+  // },
 ];
 
 export default news;
