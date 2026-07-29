@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const CategoryCard = ({ category }) => {
   const { name, image, totalNews } = category;

@@ -52,7 +52,7 @@ const HeaderComponent = () => {
             <ul className="flex flex-wrap justify-center gap-6 font-medium">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-700 hover:text-red-600 transition"
                 >
                   Home
@@ -61,7 +61,7 @@ const HeaderComponent = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/categories"
                   className="text-gray-700 hover:text-red-600 transition"
                 >
                   Categories
