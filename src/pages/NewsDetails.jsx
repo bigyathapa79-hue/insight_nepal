@@ -28,7 +28,7 @@ const NewsDetails = () => {
 
   return (
     <>
-    <HeaderComponent/>
+      <HeaderComponent />
       <section className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
           {/* Category */}
@@ -49,7 +49,7 @@ const NewsDetails = () => {
           <img
             src={article.image}
             alt={article.title}
-            className="w-full h-[450px] object-cover rounded-lg mb-8"
+            className="w-full h-112.5 object-cover rounded-lg mb-8"
           />
 
           {/* Description */}
@@ -71,7 +71,7 @@ const NewsDetails = () => {
           </Link>
         </div>
       </section>
-      <FooterComponent/>
+      <FooterComponent />
     </>
   );
 };

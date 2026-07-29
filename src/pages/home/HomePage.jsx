@@ -1,5 +1,6 @@
 import FooterComponent from "../../components/FooterComponents";
 import HeaderComponent from "../../components/HeaderComponent";
+import HeroSection from "../../components/HeroSection";
 import NewsCard from "../../components/NewsCard";
 import news from "../../data/news";
 
@@ -7,6 +8,7 @@ const HomePage = () => {
   return (
     <>
       <HeaderComponent />
+      <HeroSection/>
       <div className="container mx-auto px-4 py-10">
         <h1 className="text-3xl font-bold mb-8">Latest News</h1>
 
