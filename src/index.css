@@ -1,1 +1,20 @@
 @import "tailwindcss";
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.ticker:hover .marquee {
+  animation-play-state: paused;
+}
