@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import HomePage from "./pages/home/HomePage";
+import RoutingConfig from "./config/RoutingConfig";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HomePage />
+    <RoutingConfig/>
   </StrictMode>,
 );
