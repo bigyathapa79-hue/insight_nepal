@@ -28,13 +28,13 @@ const NewsDetails = () => {
   return (
     <>
       <Helmet>
-        <title>{news.title} | Insight Nepal</title>
+        <title>{`${article.title} | Insight Nepal`}</title>
 
-        <meta name="description" content={news.description} />
+        <meta name="description" content={article.description} />
 
-        <meta property="og:title" content={news.title} />
-        <meta property="og:description" content={news.description} />
-        <meta property="og:image" content={news.image} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.description} />
+        <meta property="og:image" content={article.image} />
       </Helmet>
 
       <section className="py-12">
