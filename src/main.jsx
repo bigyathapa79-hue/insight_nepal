@@ -1,10 +1,13 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
 import RoutingConfig from "./config/RoutingConfig";
+import { SearchProvider } from "./context/SearchContext";
+import "./index.css";
+import { StrictMode } from "react";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RoutingConfig/>
+    <SearchProvider>
+      <RoutingConfig />
+    </SearchProvider>
   </StrictMode>,
 );

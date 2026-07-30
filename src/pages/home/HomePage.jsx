@@ -8,12 +8,24 @@ import Newsletter from "../../components/NewsLatter";
 import Sidebar from "../../components/Sidebar";
 import categories from "../../data/categories";
 import news from "../../data/news";
+import { useSearch } from "../../context/SearchContext";
 
 const HomePage = () => {
+  const { search } = useSearch();
+
+  const filteredNews = news.filter((article) => {
+    const keyword = search.toLowerCase();
+
+    return (
+      article.title.toLowerCase().includes(keyword) ||
+      article.category.toLowerCase().includes(keyword) ||
+      article.author.toLowerCase().includes(keyword) ||
+      article.description.toLowerCase().includes(keyword)
+    );
+  });
   
   return (
     <>
-
       <BreakingNews />
       <HeroSection />
       {/* Latest Section */}
@@ -25,7 +37,7 @@ const HomePage = () => {
             {/* News */}
             <div className="lg:col-span-2">
               <div className="grid md:grid-cols-2 gap-8">
-                {news.slice(0, 6).map((article) => (
+                {filteredNews.slice(0, 6).map((article) => (
                   <NewsCard key={article.id} article={article} />
                 ))}
               </div>
@@ -47,12 +59,10 @@ const HomePage = () => {
             ))}
           </div>
         </div>
-        <AllNews/>
-        
+        <AllNews />
       </section>
       <Newsletter />
-      <BackToTop/>
-
+      <BackToTop />
     </>
   );
 };
