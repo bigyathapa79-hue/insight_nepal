@@ -3,19 +3,31 @@ import news from "../data/news";
 
 const BreakingNews = () => {
   return (
-    <section className="bg-red-600">
-      <div className="container mx-auto flex items-center ticker">
-        <div className="bg-white text-red-600 font-bold px-5 py-3">
+    <section className="bg-red-600 overflow-hidden">
+      <div className="container mx-auto flex items-center">
+        <div className="bg-white text-red-600 font-bold px-5 py-3 shrink-0">
           BREAKING NEWS
         </div>
 
-        <div className="flex-1 overflow-hidden">
-          <div className="marquee">
-            {[...news, ...news].map((article, index) => (
+        <div className="ticker-wrapper">
+          <div className="ticker-track">
+            {news.map((article) => (
               <Link
-                key={index}
+                key={article.id}
                 to={`/news/${article.slug}`}
-                className="mx-8 whitespace-nowrap text-white hover:underline"
+                className="ticker-item"
+              >
+                🔴 {article.title}
+              </Link>
+            ))}
+          </div>
+
+          <div className="ticker-track" aria-hidden="true">
+            {news.map((article) => (
+              <Link
+                key={`copy-${article.id}`}
+                to={`/news/${article.slug}`}
+                className="ticker-item"
               >
                 🔴 {article.title}
               </Link>
