@@ -9,6 +9,7 @@ import Sidebar from "../../components/Sidebar";
 import categories from "../../data/categories";
 import news from "../../data/news";
 import { useSearch } from "../../context/SearchContext";
+import { Helmet } from "react-helmet-async";
 
 const HomePage = () => {
   const { search } = useSearch();
@@ -26,6 +27,25 @@ const HomePage = () => {
   
   return (
     <>
+      <Helmet>
+        <title>Insight Nepal | Latest News from Nepal</title>
+
+        <meta
+          name="description"
+          content="Read the latest breaking news from Nepal including politics, business, sports, technology, entertainment, health, and more."
+        />
+
+        <meta
+          property="og:title"
+          content="Insight Nepal | Latest News from Nepal"
+        />
+
+        <meta
+          property="og:description"
+          content="Latest breaking news and updates from Nepal."
+        />
+      </Helmet>
+
       <BreakingNews />
       <HeroSection />
       {/* Latest Section */}

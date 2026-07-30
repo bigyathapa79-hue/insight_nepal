@@ -1,9 +1,18 @@
+import { Helmet } from "react-helmet-async";
 import CategoryCard from "../../components/CategoryCard";
 import categories from "../../data/categories";
 
 const Category = () => {
   return (
     <>
+      <Helmet>
+        <title>Sports News | Insight Nepal</title>
+
+        <meta
+          name="description"
+          content="Latest sports news from Nepal and around the world."
+        />
+      </Helmet>
 
       <section className="py-12 bg-gray-100 min-h-screen">
         <div className="container mx-auto px-4">
@@ -26,7 +35,6 @@ const Category = () => {
           </div>
         </div>
       </section>
-
     </>
   );
 };

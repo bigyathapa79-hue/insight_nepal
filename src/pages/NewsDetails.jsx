@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router";
 import news from "../data/news";
+import { Helmet } from "react-helmet-async";
 
 const NewsDetails = () => {
   // Get the slug from the URL
@@ -26,6 +27,15 @@ const NewsDetails = () => {
 
   return (
     <>
+      <Helmet>
+        <title>{news.title} | Insight Nepal</title>
+
+        <meta name="description" content={news.description} />
+
+        <meta property="og:title" content={news.title} />
+        <meta property="og:description" content={news.description} />
+        <meta property="og:image" content={news.image} />
+      </Helmet>
 
       <section className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -69,7 +79,6 @@ const NewsDetails = () => {
           </Link>
         </div>
       </section>
-
     </>
   );
 };
