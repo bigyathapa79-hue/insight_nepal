@@ -5,6 +5,7 @@ import NewsDetails from "../pages/NewsDetails";
 import About from "../pages/about/AboutPage";
 import CategoryDetails from "../pages/categoryDetails/CategoryDetails";
 import MainLayout from "../layout/MainLayout";
+import ContactPage from "../pages/contact/ContactPage";
 
 const RoutingConfig = () => {
   return (
@@ -20,6 +21,7 @@ const RoutingConfig = () => {
               path="category/:categoryName"
               element={<CategoryDetails />}
             />
+            <Route path="contact" element={<ContactPage/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
