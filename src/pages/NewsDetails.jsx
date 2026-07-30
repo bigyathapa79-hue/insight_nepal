@@ -1,7 +1,5 @@
 import { Link, useParams } from "react-router";
 import news from "../data/news";
-import HeaderComponent from "../components/HeaderComponent";
-import FooterComponent from "../components/FooterComponents";
 
 const NewsDetails = () => {
   // Get the slug from the URL
@@ -28,7 +26,7 @@ const NewsDetails = () => {
 
   return (
     <>
-      <HeaderComponent />
+
       <section className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
           {/* Category */}
@@ -71,7 +69,7 @@ const NewsDetails = () => {
           </Link>
         </div>
       </section>
-      <FooterComponent />
+
     </>
   );
 };

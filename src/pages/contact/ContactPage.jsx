@@ -54,7 +54,7 @@ const ContactPage = () => {
 
               <div>
                 <h3 className="font-bold text-xl">Phone</h3>
-                <p className="text-gray-600">+977-9800000000</p>
+                <p className="text-gray-600">+977-9769732152</p>
               </div>
             </div>
 
@@ -162,8 +162,8 @@ const ContactPage = () => {
                   {...register("message", {
                     required: "Message is required",
                     minLength: {
-                      value: 20,
-                      message: "Message must be at least 20 characters",
+                      value: 10,
+                      message: "Message must be at least 10 characters",
                     },
                   })}
                 ></textarea>

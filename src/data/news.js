@@ -168,18 +168,18 @@ const news = [
     content:
       "Students and researchers welcomed the new facility for learning and collaboration.",
   },
-  // {
-  //   id: 14,
-  //   slug: "mountain-cleanup-campaign-success",
-  //   title: "Mountain Cleanup Campaign Collects Tons of Waste",
-  //   image: "/images/news/news14.jpg",
-  //   category: "Environment",
-  //   author: "Deepak Magar",
-  //   date: "22 July 2026",
-  //   description: "Volunteers removed waste from popular trekking routes.",
-  //   content:
-  //     "Environmental groups emphasized the importance of sustainable tourism and conservation.",
-  // },
+  {
+    id: 14,
+    slug: "mountain-cleanup-campaign-success",
+    title: "Mountain Cleanup Campaign Collects Tons of Waste",
+    image: "/images/news/news14.webp",
+    category: "Environment",
+    author: "Deepak Magar",
+    date: "22 July 2026",
+    description: "Volunteers removed waste from popular trekking routes.",
+    content:
+      "Environmental groups emphasized the importance of sustainable tourism and conservation.",
+  },
   {
     id: 15,
     slug: "film-festival-premieres-new-movies",
@@ -193,71 +193,136 @@ const news = [
     content:
       "The festival celebrated creativity and encouraged young filmmakers to share their work.",
   },
-  // {
-  //   id: 16,
-  //   slug: "agriculture-program-supports-farmers",
-  //   title: "New Agriculture Program Supports Local Farmers",
-  //   image: "/images/news/news16.jpg",
-  //   category: "Business",
-  //   author: "Hari Pokharel",
-  //   date: "21 July 2026",
-  //   description:
-  //     "Farmers will receive training, equipment, and financial assistance.",
-  //   content:
-  //     "The initiative aims to increase productivity and improve rural livelihoods.",
-  // },
-  // {
-  //   id: 17,
-  //   slug: "science-fair-highlights-innovation",
-  //   title: "Science Fair Highlights Student Innovation",
-  //   image: "/images/news/news17.jpg",
-  //   category: "Science",
-  //   author: "Sneha Gautam",
-  //   date: "21 July 2026",
-  //   description:
-  //     "Students displayed creative scientific projects and experiments.",
-  //   content:
-  //     "Teachers praised participants for their curiosity and practical problem-solving skills.",
-  // },
-  // {
-  //   id: 18,
-  //   slug: "city-marathon-draws-athletes",
-  //   title: "City Marathon Draws Record Number of Athletes",
-  //   image: "/images/news/news18.jpg",
-  //   category: "Sports",
-  //   author: "Roshan Bhatt",
-  //   date: "20 July 2026",
-  //   description:
-  //     "Thousands of runners participated in the annual city marathon.",
-  //   content:
-  //     "The event promoted fitness, tourism, and community participation.",
-  // },
-  // {
-  //   id: 19,
-  //   slug: "fashion-show-promotes-local-designers",
-  //   title: "Fashion Show Promotes Emerging Local Designers",
-  //   image: "/images/news/news19.jpg",
-  //   category: "Lifestyle",
-  //   author: "Puja Khatri",
-  //   date: "20 July 2026",
-  //   description:
-  //     "Designers presented modern collections inspired by Nepali culture.",
-  //   content:
-  //     "The event encouraged young designers to showcase their talent on a national platform.",
-  // },
-  // {
-  //   id: 20,
-  //   slug: "community-volunteers-plant-trees",
-  //   title: "Community Volunteers Plant Thousands of Trees",
-  //   image: "/images/news/news20.jpg",
-  //   category: "Environment",
-  //   author: "Aakash Joshi",
-  //   date: "19 July 2026",
-  //   description:
-  //     "A nationwide campaign encouraged citizens to plant trees for a greener future.",
-  //   content:
-  //     "Volunteers from schools, organizations, and local communities participated in the environmental initiative.",
-  // },
+  {
+    id: 16,
+    slug: "agriculture-program-supports-farmers",
+    title: "New Agriculture Program Supports Local Farmers",
+    image: "/images/news/news16.jpeg",
+    category: "Business",
+    author: "Hari Pokharel",
+    date: "21 July 2026",
+    description:
+      "Farmers will receive training, equipment, and financial assistance.",
+    content:
+      "The initiative aims to increase productivity and improve rural livelihoods.",
+  },
+  {
+    id: 17,
+    slug: "science-fair-highlights-innovation",
+    title: "Science Fair Highlights Student Innovation",
+    image: "/images/news/news17.webp",
+    category: "Science",
+    author: "Sneha Gautam",
+    date: "21 July 2026",
+    description:
+      "Students displayed creative scientific projects and experiments.",
+    content:
+      "Teachers praised participants for their curiosity and practical problem-solving skills.",
+  },
+  {
+    id: 18,
+    slug: "city-marathon-draws-athletes",
+    title: "City Marathon Draws Record Number of Athletes",
+    image: "/images/news/news18.jpg",
+    category: "Sports",
+    author: "Roshan Bhatt",
+    date: "20 July 2026",
+    description:
+      "Thousands of runners participated in the annual city marathon.",
+    content:
+      "The event promoted fitness, tourism, and community participation.",
+  },
+  {
+    id: 19,
+    slug: "fashion-show-promotes-local-designers",
+    title: "Fashion Show Promotes Emerging Local Designers",
+    image: "/images/news/news19.jpg",
+    category: "Lifestyle",
+    author: "Puja Khatri",
+    date: "20 July 2026",
+    description:
+      "Designers presented modern collections inspired by Nepali culture.",
+    content:
+      "The event encouraged young designers to showcase their talent on a national platform.",
+  },
+  {
+    id: 20,
+    slug: "community-volunteers-plant-trees",
+    title: "Community Volunteers Plant Thousands of Trees",
+    image: "/images/news/news20.jpg",
+    category: "Environment",
+    author: "Aakash Joshi",
+    date: "19 July 2026",
+    description:
+      "A nationwide campaign encouraged citizens to plant trees for a greener future.",
+    content:
+      "Volunteers from schools, organizations, and local communities participated in the environmental initiative.",
+  },
+  {
+    id: 21,
+    slug: "government-announces-new-economic-policy",
+    title: "Government Announces New Economic Policy",
+    image: "/images/news/news21.jpg",
+    category: "Politics",
+    author: "Bigya Thapa",
+    date: "30 July 2026",
+    description:
+      "The government introduced a new economic policy aimed at boosting investment and creating employment opportunities.",
+    content:
+      "During a press conference in Kathmandu, government officials unveiled a comprehensive economic policy focused on attracting foreign investment, supporting local businesses, improving infrastructure, and generating new jobs. The policy also includes measures to strengthen Nepal's economy and encourage sustainable development.",
+  },
+  {
+    id: 22,
+    slug: "parliament-passes-education-reform-bill",
+    title: "Parliament Passes New Education Reform Bill",
+    image: "/images/news/news22.jpg",
+    category: "Politics",
+    author: "Sanjay Sharma",
+    date: "28 July 2026",
+    description:
+      "Lawmakers approved a new education reform bill aimed at improving the quality of schools across Nepal.",
+    content:
+      "The new legislation focuses on curriculum modernization, teacher training, and better access to quality education in rural communities. Officials believe the reforms will strengthen the country's education system.",
+  },
+  {
+    id: 23,
+    slug: "election-commission-announces-local-election-date",
+    title: "Election Commission Announces Local Election Date",
+    image: "/images/news/news23.jpg",
+    category: "Politics",
+    author: "Rita Karki",
+    date: "27 July 2026",
+    description:
+      "The Election Commission has officially announced the schedule for the upcoming local elections.",
+    content:
+      "Election officials urged political parties to begin preparations while encouraging citizens to participate in the democratic process. Security arrangements and voter awareness campaigns have also been planned.",
+  },
+  {
+    id: 24,
+    slug: "prime-minister-meets-provincial-leaders",
+    title: "Prime Minister Meets Provincial Leaders",
+    image: "/images/news/news24.jpeg",
+    category: "Politics",
+    author: "Anil Gautam",
+    date: "26 July 2026",
+    description:
+      "Provincial leaders held discussions with the Prime Minister on development priorities and public services.",
+    content:
+      "The meeting focused on strengthening coordination between the federal and provincial governments, improving infrastructure projects, and addressing challenges faced by local administrations.",
+  },
+  {
+    id: 25,
+    slug: "government-launches-national-digital-governance-plan",
+    title: "Government Launches National Digital Governance Plan",
+    image: "/images/news/news25.png",
+    category: "Politics",
+    author: "Nisha Adhikari",
+    date: "25 July 2026",
+    description:
+      "A new digital governance strategy aims to make public services faster, more transparent, and easier to access.",
+    content:
+      "The government announced plans to expand online public services, improve cybersecurity, and digitize administrative processes to increase efficiency and reduce paperwork for citizens.",
+  },
 ];
 
 export default news;
