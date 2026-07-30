@@ -1,12 +1,10 @@
 import CategoryCard from "../../components/CategoryCard";
-import FooterComponent from "../../components/FooterComponents";
-import HeaderComponent from "../../components/HeaderComponent";
 import categories from "../../data/categories";
 
 const Category = () => {
   return (
     <>
-      <HeaderComponent />
+
       <section className="py-12 bg-gray-100 min-h-screen">
         <div className="container mx-auto px-4">
           {/* Page Title */}
@@ -28,7 +26,7 @@ const Category = () => {
           </div>
         </div>
       </section>
-      <FooterComponent />
+
     </>
   );
 };

@@ -1,8 +1,6 @@
 import AllNews from "../../components/AllNews";
 import BreakingNews from "../../components/BreakingNews";
 import CategoryCard from "../../components/CategoryCard";
-import FooterComponent from "../../components/FooterComponents";
-import HeaderComponent from "../../components/HeaderComponent";
 import HeroSection from "../../components/HeroSection";
 import NewsCard from "../../components/NewsCard";
 import Newsletter from "../../components/NewsLatter";
@@ -14,7 +12,7 @@ const HomePage = () => {
   
   return (
     <>
-      <HeaderComponent />
+
       <BreakingNews />
       <HeroSection />
       {/* Latest Section */}
@@ -52,7 +50,7 @@ const HomePage = () => {
         
       </section>
       <Newsletter />
-      <FooterComponent />
+
     </>
   );
 };

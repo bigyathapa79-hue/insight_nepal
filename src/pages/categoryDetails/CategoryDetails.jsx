@@ -1,8 +1,6 @@
 import { useParams } from "react-router";
-import news from "../../data/news";
 import NewsCard from "../../components/NewsCard";
-import HeaderComponent from "../../components/HeaderComponent";
-import FooterComponent from "../../components/FooterComponents";
+import news from "../../data/news";
 
 const CategoryDetails = () => {
   const { categoryName } = useParams();
@@ -13,7 +11,7 @@ const CategoryDetails = () => {
 
   return (
     <>
-      <HeaderComponent />
+
 
       <section className="py-12">
         <div className="container mx-auto px-4">
@@ -33,7 +31,7 @@ const CategoryDetails = () => {
         </div>
       </section>
 
-      <FooterComponent />
+
     </>
   );
 };
