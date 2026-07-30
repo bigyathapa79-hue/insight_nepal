@@ -9,19 +9,20 @@
 //           <nav>
 //             <ul className="flex gap-5">
 //               <li>
-//                 <a href="#">Home</a>
+//                 <Link href="#">Home</Link>
 //               </li>
 //               <li>
-//                 <a href="#">Categories</a>
+//                 <Link href="#">Categories</Link>
 //               </li>
 
 import { MdSearch } from "react-icons/md";
+import { Link } from "react-router";
 
 //               <li>
-//                 <a href="#">About</a>
+//                 <Link href="#">About</Link>
 //               </li>
 //               <li>
-//                 <a href="#">Contact</a>
+//                 <Link href="#">Contact</Link>
 //               </li>
 //             </ul>
 //           </nav>
@@ -51,39 +52,39 @@ const HeaderComponent = () => {
           <nav className="mt-4 md:mt-0">
             <ul className="flex flex-wrap justify-center gap-6 font-medium">
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="text-gray-700 hover:text-red-600 transition"
                 >
                   Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/categories"
+                <Link
+                  to="/categories"
                   className="text-gray-700 hover:text-red-600 transition"
                 >
                   Categories
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/about"
+                <Link
+                  to="/about"
                   className="text-gray-700 hover:text-red-600 transition"
                 >
                   About
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="text-gray-700 hover:text-red-600 transition"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

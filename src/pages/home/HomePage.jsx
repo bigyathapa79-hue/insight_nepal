@@ -1,4 +1,5 @@
 import AllNews from "../../components/AllNews";
+import BackToTop from "../../components/BacktoTop";
 import BreakingNews from "../../components/BreakingNews";
 import CategoryCard from "../../components/CategoryCard";
 import HeroSection from "../../components/HeroSection";
@@ -50,6 +51,7 @@ const HomePage = () => {
         
       </section>
       <Newsletter />
+      <BackToTop/>
 
     </>
   );

@@ -41,6 +41,12 @@ const categories = [
     image: "/images/categories/education.png",
     totalNews: 2,
   },
+  {
+    id: 8,
+    name: "Tourism",
+    image: "/images/categories/tourism.jpeg",
+    totalNews: 1,
+  },
 ];
 
 export default categories;
