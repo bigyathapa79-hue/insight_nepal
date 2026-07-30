@@ -1,3 +1,4 @@
+import AllNews from "../../components/AllNews";
 import BreakingNews from "../../components/BreakingNews";
 import CategoryCard from "../../components/CategoryCard";
 import FooterComponent from "../../components/FooterComponents";
@@ -10,6 +11,7 @@ import categories from "../../data/categories";
 import news from "../../data/news";
 
 const HomePage = () => {
+  
   return (
     <>
       <HeaderComponent />
@@ -46,18 +48,8 @@ const HomePage = () => {
             ))}
           </div>
         </div>
-        {/* Trending News */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8">Trending News</h2>
-
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {news.slice(6, 9).map((article) => (
-                <NewsCard key={article.id} article={article} />
-              ))}
-            </div>
-          </div>
-        </section>
+        <AllNews/>
+        
       </section>
       <Newsletter />
       <FooterComponent />

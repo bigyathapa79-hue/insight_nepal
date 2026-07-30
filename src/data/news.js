@@ -90,84 +90,84 @@ const news = [
     content:
       "The competition highlighted creativity, teamwork, and engineering skills among young participants.",
   },
-  // {
-  //   id: 8,
-  //   slug: "health-campaign-expands-rural-areas",
-  //   title: "Health Campaign Expands to Rural Areas",
-  //   image: "/images/news/news8.jpg",
-  //   category: "Health",
-  //   author: "Milan KC",
-  //   date: "25 July 2026",
-  //   description:
-  //     "Healthcare teams are providing free medical checkups in remote communities.",
-  //   content:
-  //     "Doctors and volunteers aim to improve healthcare access through nationwide outreach programs.",
-  // },
-  // {
-  //   id: 9,
-  //   slug: "new-airport-terminal-opens",
-  //   title: "New Airport Terminal Officially Opens",
-  //   image: "/images/news/news9.jpg",
-  //   category: "Nepal",
-  //   author: "Kiran Thapa",
-  //   date: "25 July 2026",
-  //   description:
-  //     "The new terminal is expected to improve passenger services and capacity.",
-  //   content:
-  //     "Officials believe the expansion will strengthen tourism and international connectivity.",
-  // },
-  // {
-  //   id: 10,
-  //   slug: "local-art-festival-attracts-visitors",
-  //   title: "Local Art Festival Attracts Thousands of Visitors",
-  //   image: "/images/news/news10.jpg",
-  //   category: "Culture",
-  //   author: "Suman Lama",
-  //   date: "24 July 2026",
-  //   description:
-  //     "Artists showcased paintings, sculptures, and traditional crafts.",
-  //   content:
-  //     "Visitors enjoyed cultural performances and exhibitions celebrating Nepal's artistic heritage.",
-  // },
-  // {
-  //   id: 11,
-  //   slug: "ai-startups-growing-nepal",
-  //   title: "AI Startups Continue to Grow in Nepal",
-  //   image: "/images/news/news11.jpg",
-  //   category: "Technology",
-  //   author: "Anisha Koirala",
-  //   date: "24 July 2026",
-  //   description:
-  //     "Artificial intelligence startups are attracting investors and skilled professionals.",
-  //   content:
-  //     "Experts believe AI will play a major role in Nepal's digital transformation.",
-  // },
-  // {
-  //   id: 12,
-  //   slug: "basketball-championship-finals",
-  //   title: "National Basketball Championship Reaches Finals",
-  //   image: "/images/news/news12.jpg",
-  //   category: "Sports",
-  //   author: "Bibek Chaudhary",
-  //   date: "23 July 2026",
-  //   description:
-  //     "The top two teams are preparing for an exciting championship match.",
-  //   content:
-  //     "Fans are expecting a competitive final after an impressive tournament.",
-  // },
-  // {
-  //   id: 13,
-  //   slug: "new-library-opens-city-center",
-  //   title: "Modern Public Library Opens in City Center",
-  //   image: "/images/news/news13.jpg",
-  //   category: "Education",
-  //   author: "Sarita Bhandari",
-  //   date: "23 July 2026",
-  //   description:
-  //     "The library offers digital resources, study areas, and community events.",
-  //   content:
-  //     "Students and researchers welcomed the new facility for learning and collaboration.",
-  // },
+  {
+    id: 8,
+    slug: "health-campaign-expands-rural-areas",
+    title: "Health Campaign Expands to Rural Areas",
+    image: "/images/news/news8.png",
+    category: "Health",
+    author: "Milan KC",
+    date: "25 July 2026",
+    description:
+      "Healthcare teams are providing free medical checkups in remote communities.",
+    content:
+      "Doctors and volunteers aim to improve healthcare access through nationwide outreach programs.",
+  },
+  {
+    id: 9,
+    slug: "new-airport-terminal-opens",
+    title: "New Airport Terminal Officially Opens",
+    image: "/images/news/news9.webp",
+    category: "Nepal",
+    author: "Kiran Thapa",
+    date: "25 July 2026",
+    description:
+      "The new terminal is expected to improve passenger services and capacity.",
+    content:
+      "Officials believe the expansion will strengthen tourism and international connectivity.",
+  },
+  {
+    id: 10,
+    slug: "local-art-festival-attracts-visitors",
+    title: "Local Art Festival Attracts Thousands of Visitors",
+    image: "/images/news/news10.jpg",
+    category: "Culture",
+    author: "Suman Lama",
+    date: "24 July 2026",
+    description:
+      "Artists showcased paintings, sculptures, and traditional crafts.",
+    content:
+      "Visitors enjoyed cultural performances and exhibitions celebrating Nepal's artistic heritage.",
+  },
+  {
+    id: 11,
+    slug: "ai-startups-growing-nepal",
+    title: "AI Startups Continue to Grow in Nepal",
+    image: "/images/news/news11.jpg",
+    category: "Technology",
+    author: "Anisha Koirala",
+    date: "24 July 2026",
+    description:
+      "Artificial intelligence startups are attracting investors and skilled professionals.",
+    content:
+      "Experts believe AI will play a major role in Nepal's digital transformation.",
+  },
+  {
+    id: 12,
+    slug: "basketball-championship-finals",
+    title: "National Basketball Championship Reaches Finals",
+    image: "/images/news/news12.jpg",
+    category: "Sports",
+    author: "Bibek Chaudhary",
+    date: "23 July 2026",
+    description:
+      "The top two teams are preparing for an exciting championship match.",
+    content:
+      "Fans are expecting a competitive final after an impressive tournament.",
+  },
+  {
+    id: 13,
+    slug: "new-library-opens-city-center",
+    title: "Modern Public Library Opens in City Center",
+    image: "/images/news/news13.jpeg",
+    category: "Education",
+    author: "Sarita Bhandari",
+    date: "23 July 2026",
+    description:
+      "The library offers digital resources, study areas, and community events.",
+    content:
+      "Students and researchers welcomed the new facility for learning and collaboration.",
+  },
   // {
   //   id: 14,
   //   slug: "mountain-cleanup-campaign-success",
@@ -180,19 +180,19 @@ const news = [
   //   content:
   //     "Environmental groups emphasized the importance of sustainable tourism and conservation.",
   // },
-  // {
-  //   id: 15,
-  //   slug: "film-festival-premieres-new-movies",
-  //   title: "Film Festival Premieres Award-Winning Movies",
-  //   image: "/images/news/news15.jpg",
-  //   category: "Entertainment",
-  //   author: "Rita Tamang",
-  //   date: "22 July 2026",
-  //   description:
-  //     "Filmmakers presented documentaries and feature films to enthusiastic audiences.",
-  //   content:
-  //     "The festival celebrated creativity and encouraged young filmmakers to share their work.",
-  // },
+  {
+    id: 15,
+    slug: "film-festival-premieres-new-movies",
+    title: "Film Festival Premieres Award-Winning Movies",
+    image: "/images/news/news15.png",
+    category: "Entertainment",
+    author: "Rita Tamang",
+    date: "22 July 2026",
+    description:
+      "Filmmakers presented documentaries and feature films to enthusiastic audiences.",
+    content:
+      "The festival celebrated creativity and encouraged young filmmakers to share their work.",
+  },
   // {
   //   id: 16,
   //   slug: "agriculture-program-supports-farmers",
