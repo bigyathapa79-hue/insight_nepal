@@ -70,7 +70,7 @@ const HeaderComponent = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/about"
                   className="text-gray-700 hover:text-red-600 transition"
                 >
                   About
